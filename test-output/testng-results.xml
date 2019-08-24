@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Complete Frameworks" duration-ms="29287" started-at="2019-08-22T21:15:30Z" finished-at="2019-08-22T21:16:00Z">
+    <groups>
+      <group name="Smoketest">
+        <method signature="HomePageTest.testlogIn()[pri:0, instance:testRunner.HomePageTest@3532ec19]" name="testlogIn" class="testRunner.HomePageTest"/>
+        <method signature="HomePageTest2.testLogOut()[pri:0, instance:testRunner.HomePageTest2@68c4039c]" name="testLogOut" class="testRunner.HomePageTest2"/>
+      </group> <!-- Smoketest -->
+    </groups>
+    <test name="Different Testng Feature Test" duration-ms="29287" started-at="2019-08-22T21:15:30Z" finished-at="2019-08-22T21:16:00Z">
+      <class name="testRunner.HomePageTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testRunner.HomePageTest@3532ec19]" name="launchBrowser" is-config="true" duration-ms="6437" started-at="2019-08-22T21:15:30Z" finished-at="2019-08-22T21:15:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testlogIn()[pri:0, instance:testRunner.HomePageTest@3532ec19]" name="testlogIn" duration-ms="5177" started-at="2019-08-22T21:15:37Z" finished-at="2019-08-22T21:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogIn -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testRunner.HomePageTest@3532ec19]" name="teardown" is-config="true" duration-ms="2065" started-at="2019-08-22T21:15:42Z" finished-at="2019-08-22T21:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testRunner.HomePageTest -->
+      <class name="testRunner.HomePageTest2">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testRunner.HomePageTest2@68c4039c]" name="launchBrowser" is-config="true" duration-ms="6175" started-at="2019-08-22T21:15:44Z" finished-at="2019-08-22T21:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testLogOut()[pri:0, instance:testRunner.HomePageTest2@68c4039c]" name="testLogOut" duration-ms="7354" started-at="2019-08-22T21:15:50Z" finished-at="2019-08-22T21:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogOut -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testRunner.HomePageTest2@68c4039c]" name="teardown" is-config="true" duration-ms="2054" started-at="2019-08-22T21:15:58Z" finished-at="2019-08-22T21:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testRunner.HomePageTest2 -->
+    </test> <!-- Different Testng Feature Test -->
+  </suite> <!-- Complete Frameworks -->
+</testng-results>

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Complete Frameworks">
+	<test name="Different Testng Feature Test">
+		<classes>
+			<class name="testRunner.HomePageTest"/>
+			<class name="testRunner.HomePageTest2"/>
+		</classes>
+	</test>
+</suite>
